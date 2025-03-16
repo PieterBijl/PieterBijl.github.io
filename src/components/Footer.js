@@ -1,14 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer>
-            <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
-            <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
+        <footer className="footer">
+            <div className="footer-content">
+                <div className="footer-section">
+                    <p>&copy; 2024 Your Name. All rights reserved.</p>
+                </div>
+                <div className="footer-section">
+                    <nav>
+                        <Link to="/">Home</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/about">About</Link>
+                    </nav>
+                </div>
+            </div>
         </footer>
     );
 };
