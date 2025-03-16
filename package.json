@@ -27,7 +27,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^7.3.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
@@ -47,6 +47,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/PieterBijl/PieterBijl.github.io",
+  "homepage": "https://PieterBijl.github.io/portfolio-website",
   "private": true
 }
